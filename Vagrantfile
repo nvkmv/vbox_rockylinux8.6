@@ -13,7 +13,7 @@ Vagrant.configure("2") do |config|
 
   # Every Vagrant development environment requires a box. You can search for
   # boxes at https://vagrantcloud.com/search.
-  config.vm.box = "file:/home/atlas/project/rockylinux8.6_box/packer/builds/virtualbox-rockylinux8.box"
+  config.vm.box = "file://builds/virtualbox-rockylinux8.box"
   #config.vm.box_version = "1.0"
   # config.disksize.size = '15GB'
   # Disable automatic box update checking. If you disable this, then
