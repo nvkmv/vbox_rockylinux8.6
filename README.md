@@ -1,5 +1,3 @@
-# Packer Build - Rocky Linux 8 minimal Vagrant Box
+# Packer and Vagrant Build Rocky Linux 8.6 Vagrant Box
+версия ядра: 5.4
 
-**Current Rocky Linux Version Used**: 8.5
-
-See the [project README.md](../README.md) for usage instructions.
