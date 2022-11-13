@@ -14,3 +14,9 @@
   - раскомментируйте строки: config.vm.box = "nvkmv/rockylinux8.6" и  config.vm.box_version = "1.0"
   
   - запустите машину командой: ``` vagrant up ```
+
+## vagrant plugin list :
+
+- vagrant-disksize (0.1.3, global)
+
+- vagrant-vbguest (0.30.0, global)
