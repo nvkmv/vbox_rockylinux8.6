@@ -14,6 +14,7 @@ Vagrant.configure("2") do |config|
   # Every Vagrant development environment requires a box. You can search for
   # boxes at https://vagrantcloud.com/search.
   config.vm.box = "file://builds/virtualbox-rockylinux8.box"
+  #config.vm.box = "nvkmv/rockylinux8.6"
   #config.vm.box_version = "1.0"
   # config.disksize.size = '15GB'
   # Disable automatic box update checking. If you disable this, then
@@ -40,7 +41,7 @@ Vagrant.configure("2") do |config|
   # Create a public network, which generally matched to bridged network.
   # Bridged networks make the machine appear as another physical device on
   # your network.
-  config.vm.network "public_network", bridge: "enp2s0f0", ip: "192.168.1.55"
+  config.vm.network "public_network", ip: "192.168.1.55"
 
   # Share an additional folder to the guest VM. The first argument is
   # the path on the host to the actual folder. The second argument is
